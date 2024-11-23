@@ -1,0 +1,43 @@
+
+.block{
+    padding: 20px 0;
+    height: 150px;
+    font-size: 36px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+.countfect{
+      font-size:2.5rem;
+}
+.block1{
+    padding: 20px 0;
+    height: 150px;
+    font-size: 36px;
+    color: white;
+    background-color: rgb(7, 127, 207);
+    border-radius: 5px;
+}    
+.block2{
+    padding: 20px 0;
+    height: 150px;
+    font-size: 36px;
+    color: white;
+    background-color: salmon;
+    border-radius: 5px;
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+} 
+.parallax{
+    height: 800px;
+    background-image: url(/images/WhatsApp\ Image\ 2024-11-18\ at\ 22.12.02_3887923f.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card{
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
