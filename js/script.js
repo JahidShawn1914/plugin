@@ -19,10 +19,8 @@ $(function(){
       duration: 4000,
       complete:'',
     });
-    
-    $('body').parallax();
-
 });
+
 // js
 wow = new WOW(
   {

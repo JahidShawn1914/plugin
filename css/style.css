@@ -41,3 +41,20 @@
     margin-top: 50px;
     background-color: rgba(255, 255, 255, 0.7);
 }
+
+.hoverimg{
+    margin-bottom: 100px;
+    width: 600px;
+}
+.hoverimg img{
+    width: 100%;
+}
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+.mxb{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(28, 139, 212);
+}

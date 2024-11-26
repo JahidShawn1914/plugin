@@ -13,10 +13,8 @@
     <title>Document</title>
 
     <!-- css links -->
-     <link rel="stylesheet" href="css/jquery-ui.css">
      <link rel="stylesheet" href="css/bootstrap.css">
      <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <nav class="navbar bg-dark border-bottom border-body"    data-bs-theme="dark">
@@ -60,10 +58,60 @@
           </div>
         </div>
     </nav>
-    
+
+    <section>
+      <div class="container">
+        <button class="btn btn-dark" type="button" data-filter="all">All</button>
+        <button class="btn btn-dark" type="button" data-filter=".web">Web design</button>
+        <button class="btn btn-dark" type="button" data-filter=".wd">Web dev</button>
+        <button class="btn btn-dark" type="button" data-filter=".wp">Wordpress</button>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row" id="hello">
+          <div class="mix web col-md-2">
+            <div class="mxb">
+              <h2>web design</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, architecto.</p>
+            </div>
+          </div>
+          <div class="mix web col-md-2" data-order="2">
+            <div class="mxb">
+              <h2>web design</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, architecto.</p>
+            </div>
+          </div>
+          <div class="mix wd col-md-2" data-order="3">
+            <div class="mxb">
+              <h2>web dev</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, architecto.</p>
+            </div>
+          </div>
+          <div class="mix wd col-md-2" data-order="4">
+            <div class="mxb">
+              <h2>web dev</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, architecto.</p>
+            </div>
+          </div>
+          <div class="mix wp wd col-md-2">
+            <div class="mxb">
+              <h2>word press</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, architecto.</p>
+            </div>
+          </div>
+          <div class="mix wp wd col-md-2">
+            <div class="mxb">
+              <h2>word press</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, architecto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- js links -->
-     <script src="js/jquery-3.7.1.min.js"></script>
+     <script src="js/jquery.min.js"></script>
+     <script src="vendor/mixitup/mixitup.min.js"></script>
      <script src="js/bootstrap.bundle.min.js"></script>
-     <script src="js/script.js"></script>
+     <script src="js/mix.js"></script>
 </body>
 </html>
